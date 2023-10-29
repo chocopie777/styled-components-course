@@ -2,14 +2,12 @@ import React from 'react';
 import styled from "styled-components";
 
 const StyledTitle = styled.h1`
-  color: white;
+  color: ${props => props.color}
 `
 
-const Title = ({children}) => {
+const Title = (props) => {
     return (
-        <StyledTitle>
-            {children}
-        </StyledTitle>
+        <StyledTitle {...props}/>
     );
 };
 
