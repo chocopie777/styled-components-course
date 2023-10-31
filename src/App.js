@@ -17,13 +17,13 @@ function App() {
     return (
         <AppWrapper>
             <Flex justify='center'>
-                <Title color={'green'}>
+                <Title>
                     app
                 </Title>
             </Flex>
             <Flex direction='column'>
-                <Console/>
-                <Button outlined color={'green'} align={'flex-end'}>Отправить</Button>
+                <Console />
+                <Button color={'green'} align={'flex-end'}>Отправить</Button>
             </Flex>
         </AppWrapper>
     );
